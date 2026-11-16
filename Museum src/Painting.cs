@@ -1,4 +1,6 @@
-public class Painting
+namespace MuseumVault;
+
+public class Painting : IArtifact
 {
     public string Name { get; set; }
     public int EstimatedAgeYears { get; set; }

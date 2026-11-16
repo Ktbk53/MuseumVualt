@@ -1,4 +1,6 @@
-public class Coin
+namespace MuseumVault;
+
+public class Coin : IArtifact
 {
     public string Name { get; set; }
     public int EstimatedAgeYears { get; set; }

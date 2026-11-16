@@ -1,4 +1,6 @@
-public class Fossil
+namespace MuseumVault;
+
+public class Fossil : IArtifact
 {
     public string Name { get; set; }
     public int EstimatedAgeYears { get; set; }

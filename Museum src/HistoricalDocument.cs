@@ -1,4 +1,6 @@
-public class HistoricalDocument
+namespace MuseumVault;
+
+public class HistoricalDocument : IArtifact
 {
     public string Name { get; set; }
     public int EstimatedAgeYears { get; set; }
