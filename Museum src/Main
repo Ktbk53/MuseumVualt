@@ -1,5 +1,0 @@
-```csharp
-using System;
-
-Console.WriteLine("Hello, Wall!");
-```
