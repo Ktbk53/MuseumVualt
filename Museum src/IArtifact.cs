@@ -4,6 +4,6 @@ namespace MuseumVault
     {
         string Name {get; }
         int EstimatedAgeYear {get; }
-        string describe()
+        string Describe()
     }
 }
